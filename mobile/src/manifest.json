@@ -1,7 +1,7 @@
 {
-    "name" : "",
+    "name" : "待办清单",
     "appid" : "",
-    "description" : "",
+    "description" : "移动端待办清单应用",
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,

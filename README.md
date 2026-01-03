@@ -195,3 +195,40 @@ mobile/src/
 ## License
 
 MIT
+
+
+## 自动部署
+
+### H5 版本自动部署
+
+本项目已配置 GitHub Actions，每次推送到 `main` 分支会自动部署 H5 版本到 GitHub Pages。
+
+**部署地址**：https://sea-t.github.io/app_new/
+
+**设置步骤**：
+1. 进入仓库设置：Settings → Pages
+2. Source 选择：`GitHub Actions`
+3. 保存后自动部署
+
+详细说明请查看：[GitHub Pages 部署指南](docs/GITHUB_PAGES_SETUP.md)
+
+### Android App 打包
+
+提供三种打包方式：
+
+1. **HBuilderX 云打包**（推荐新手）- 简单快速
+2. **本地离线打包**（推荐进阶）- 完全控制
+3. **GitHub Actions 自动打包**（未来支持）- 需要额外配置
+
+详细说明请查看：[Android 打包指南](docs/ANDROID_BUILD_GUIDE.md)
+
+## 项目文档
+
+- [README.md](README.md) - 项目说明和快速开始
+- [GitHub Pages 部署指南](docs/GITHUB_PAGES_SETUP.md) - H5 自动部署配置
+- [Android 打包指南](docs/ANDROID_BUILD_GUIDE.md) - App 打包完整教程
+
+## 在线演示
+
+- **H5 版本**：https://sea-t.github.io/app_new/ （部署后可访问）
+- **API 文档**：http://localhost:8000/docs （本地运行后可访问）
