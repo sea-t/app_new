@@ -1,0 +1,29 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/items/list",
+			"style": {
+				"navigationBarTitleText": "Items",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/items/create",
+			"style": {
+				"navigationBarTitleText": "新增待办"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "待办清单",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
